@@ -29,7 +29,7 @@ echo
 sleep 3
 echo
 echo
-npm config set registry https://npm.aliyun.com
+npm config set registry http://mirrors.cloud.tencent.com/npm/
 cd /ql
 TIME l "安装依赖npm..."
 npm install -g npm
